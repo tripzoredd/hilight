@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221027005952" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20221027005952">
+</head>
+
+<body class="contact">
+    <div class="body__wrapper">
+        <div class="modal">
+            <div class="modal__close"></div>
+            <div class="modal__wrapper">
+                <div class="modal__request">
+                    <div class="modal__content">
+                        <h2 class="modal__title">Make request</h2>
+                        <div class="modal__content-inputs">
+                            <div class="input-group">
+                                <input class="input" type="text" placeholder=" " />
+                                <label class="placeholder">Name</label>
+                            </div>
+                            <div class="input-group">
+                                <input class="input" type="text" placeholder=" " />
+                                <label class="placeholder">Last name</label>
+                            </div>
+                            <div class="input-group">
+                                <input class="input" type="tel" placeholder=" " />
+                                <label class="placeholder">Phone</label>
+                            </div>
+                            <div class="input-group">
+                                <input class="input" type="text" placeholder=" " />
+                                <label class="placeholder">Your city</label>
+                            </div>
+                            <div class="input-group">
+                                <input class="input" type="email" placeholder=" " />
+                                <label class="placeholder">Email</label>
+                            </div>
+                            <div class="input-group">
+                                <select class="input" name="">
+                                    <option value="0">Property type</option>
+                                    <option value="1">Property type 1</option>
+                                    <option value="2">Property type 2</option>
+                                </select>
+                            </div>
+                            <div class="input-group comment">
+                                <input class="input" type="text" placeholder=" " />
+                                <label class="placeholder">Your comment</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__content modal__content-bot">
+                        <h6>Area (m2)</h6>
+                        <div class="modal__content-groups">
+                            <div class="modal__content-group">
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-0" value="0" />
+                                    <label for="radio-0">to 50</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-1" value="50" />
+                                    <label for="radio-1">50-150</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-2" value="150" />
+                                    <label for="radio-2">150-250</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-3" value="250" />
+                                    <label for="radio-3">250-400</label>
+                                </div>
+                            </div>
+                            <div class="modal__content-group">
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-4" value="400" />
+                                    <label for="radio-4">400-600</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-5" value="600" />
+                                    <label for="radio-5">600-800</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-6" value="800" />
+                                    <label for="radio-6">800-1000</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-7" value="1000" />
+                                    <label for="radio-7">1000+</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal__content-buttons">
+                            <div class="modal__content-input">
+                                <label class="label" for="image-input">
+                                    <span>
+                                        Attach your file
+                                        <p>File size not more than 10 MB</p>
+                                    </span>
+                                </label>
+                                <input type="file" id="image-input">
+                            </div>
+                            <button class="button modal__content-button">Send Request</button>
+                        </div>
+                        <p class="modal__content-text">It is a long established fact that a reader will be distracted by
+                            the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__response">
+                <div class="modal__content">
+                    <h2 class="modal__title">Thank you for your message!</h2>
+                    <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper
+                        eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare
+                        pretium velit.</p>
+                    <button class="button modal__content-button">Send again</button>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a class="logo" href="index.html">LOGO</a>
+                    <nav class="menu">
+                        <label class="menu__burger" for="burger-menu">
+                            <input type="checkbox" id="burger-menu" />
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="projects.html">Projects</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="about.html">About us</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="contact.html">Contacts</a>
+                            </li>
+                        </ul>
+                        <div class="menu__buttons">
+                            <div class="menu__buttons-lang">EN</div>
+                            <button class="button">Send request</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="dropdown">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="about.html">About us</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="contact.html">Contacts</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <button class="button">Send request</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__bot">
+                <div class="container">
+                    <div class="header__bot-links">
+                        <a class="header__bot-link">Fb</a>
+                        <a class="header__bot-link">In</a>
+                        <a class="header__bot-link">Be</a>
+                    </div>
+                    <div class="header__bot-content">
+                        <div class="location">
+                            <div class="location__field">
+                                <img class="location__icon" src="images/location-icon.svg" alt="">
+                                <img class="location__arrow" src="images/location-arrow.svg" alt="">
+                            </div>
+                            <div class="location__select">
+                                <select>
+                                    <option value="0">Location</option>
+                                    <option value="1">Berlin</option>
+                                    <option value="2">Frankfurt</option>
+                                    <option value="3">Cologne</option>
+                                    <option value="4">Hamburg</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="header__bot-contact">
+                            <a href="tel:+380935705222">+380935705222</a>
+                            <a href="mailto:info@hi-light.pl">info@hi-light.pl</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="wrapper">
+            <div class="container">
+                <div class="contacts__content">
+                    <h2 class="title">Drop us a line</h2>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu
+                        mauris vitae posuere.</p>
+                    <div class="contacts__info">
+                        <div class="contacts__info-city">
+                            <h3>Kyiv</h3>
+                            <a href="tel:+(209) 555-0104">(209) 555-0104</a>
+                            <p>6391 Elgin St. Celina, Delaware 10299</p>
+                        </div>
+                        <div class="contacts__info-city">
+                            <h3>Lviv</h3>
+                            <a href="tel:+(209) 555-0104">(209) 555-0104</a>
+                            <p>6391 Elgin St. Celina, Delaware 10299</p>
+                        </div>
+                        <div class="contacts__info-city">
+                            <h3>Kharkiv</h3>
+                            <a href="tel:+(209) 555-0104">(209) 555-0104</a>
+                            <p>6391 Elgin St. Celina, Delaware 10299</p>
+                        </div>
+                    </div>
+                    <div class="contacts__bot">
+                        <button class="button">Make request</button>
+                        <div class="contacts__bot-content">
+                            <a href="mailto:info@gmail.com">info@gmail.com</a>
+                            <div class="contacts__bot-links">
+                                <a class="contacts__bot-link">Fb</a>
+                                <a class="contacts__bot-link">In</a>
+                                <a class="contacts__bot-link">Be</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <p class="footer__content-text">© Copyright 2018. All rights reserved</p>
+                    <div class="footer__content-group">
+                        <p class="footer__content-text">Made with love in</p>
+                        <picture>
+                            <source srcset="images/footer-img.webp" type="image/webp"><img src="images/footer-img.png"
+                                alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/app.min.js?_v=20221027005952"></script>
+</body>
+
+</html>
