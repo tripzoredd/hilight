@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221027005952" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20221027005952">
+</head>
+
+<body class="one-project">
+    <div class="body__wrapper">
+        <div class="modal">
+            <div class="modal__close"></div>
+            <div class="modal__wrapper">
+                <div class="modal__request">
+                    <div class="modal__content">
+                        <h2 class="modal__title">Make request</h2>
+                        <div class="modal__content-inputs">
+                            <div class="input-group">
+                                <input class="input" type="text" placeholder=" " />
+                                <label class="placeholder">First name</label>
+                            </div>
+                            <div class="input-group">
+                                <input class="input" type="text" placeholder=" " />
+                                <label class="placeholder">Last name</label>
+                            </div>
+                            <div class="input-group">
+                                <input class="input" type="tel" placeholder=" " />
+                                <label class="placeholder">Phone</label>
+                            </div>
+                            <div class="input-group">
+                                <input class="input" type="text" placeholder=" " />
+                                <label class="placeholder">Your city</label>
+                            </div>
+                            <div class="input-group">
+                                <input class="input" type="email" placeholder=" " />
+                                <label class="placeholder">Email</label>
+                            </div>
+                            <div class="input-group">
+                                <select class="input" name="">
+                                    <option value="0">Property type</option>
+                                    <option value="1">Property type 1</option>
+                                    <option value="2">Property type 2</option>
+                                </select>
+                            </div>
+                            <div class="input-group comment">
+                                <input class="input" type="text" placeholder=" " />
+                                <label class="placeholder">Your comment</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__content modal__content-bot">
+                        <h6>Area</h6>
+                        <div class="modal__content-groups">
+                            <div class="modal__content-group">
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-0" value="0" />
+                                    <label for="radio-0">to 50</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-1" value="50" />
+                                    <label for="radio-1">50-150</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-2" value="150" />
+                                    <label for="radio-2">150-250</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-3" value="250" />
+                                    <label for="radio-3">250-400</label>
+                                </div>
+                            </div>
+                            <div class="modal__content-group">
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-4" value="400" />
+                                    <label for="radio-4">400-600</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-5" value="600" />
+                                    <label for="radio-5">600-800</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-6" value="800" />
+                                    <label for="radio-6">800-1000</label>
+                                </div>
+                                <div class="radio-group">
+                                    <input type="radio" name="areaList" id="radio-7" value="1000" />
+                                    <label for="radio-7">1000+</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal__content-buttons">
+                            <div class="modal__content-input">
+                                <label class="label" for="image-input">
+                                    <span>
+                                        Attach your file
+                                        <p>File size not more than 10 MB</p>
+                                    </span>
+                                </label>
+                                <input type="file" id="image-input">
+                            </div>
+                            <button class="button modal__content-button">Send Request</button>
+                        </div>
+                        <p class="modal__content-text">It is a long established fact that a reader will be distracted by
+                            the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__response">
+                <div class="modal__content">
+                    <h2 class="modal__title">Thank you for your message!</h2>
+                    <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper
+                        eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare
+                        pretium velit.</p>
+                    <button class="button modal__content-button">Send again</button>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a class="logo" href="index.html">Logo</a>
+                    <nav class="menu">
+                        <label class="menu__burger" for="burger-menu">
+                            <input type="checkbox" id="burger-menu" />
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="projects.html">Projects</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="about.html">About us</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="contact.html">Contacts</a>
+                            </li>
+                        </ul>
+                        <div class="menu__buttons">
+                            <div class="menu__buttons-lang">EN</div>
+                            <button class="button">Send request</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="dropdown">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="about.html">About us</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="contact.html">Contacts</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <button class="button">Send request</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__bot">
+                <div class="container">
+                    <div class="header__bot-links">
+                        <a class="header__bot-link">Fb</a>
+                        <a class="header__bot-link">In</a>
+                        <a class="header__bot-link">Be</a>
+                    </div>
+                    <div class="header__bot-content">
+                        <div class="location">
+                            <div class="location__field">
+                                <img class="location__icon" src="images/location-icon.svg" alt="">
+                                <img class="location__arrow" src="images/location-arrow.svg" alt="">
+                            </div>
+                            <div class="location__select">
+                                <select>
+                                    <option value="0">Location</option>
+                                    <option value="1">Berlin</option>
+                                    <option value="2">Frankfurt</option>
+                                    <option value="3">Cologne</option>
+                                    <option value="4">Hamburg</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="header__bot-contact">
+                            <a href="tel:+380935705222">+380935705222</a>
+                            <a href="mailto:info@hi-light.pl">info@hi-light.pl</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="wrapper">
+            <div class="first-screen">
+                <div class="container">
+                    <div class="first-screen__content">
+                        <h2 class="title">Residence by the lighthouse</h2>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu
+                            mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare
+                            pretium velit.</p>
+                        <div class="first-screen__content-bot">
+                            <div class="first-screen__content-item">
+                                <img src="images/location-icon-1.svg" alt="">
+                                <p>Lodz, Poland</p>
+                            </div>
+                            <div class="first-screen__content-item">
+                                <img src="images/calendar-icon.svg" alt="">
+                                <p>16.10.2018</p>
+                            </div>
+                            <div class="first-screen__content-item">
+                                <img src="images/ruler-icon.svg" alt="">
+                                <p>80 sq.m</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="first-screen__share">
+                    <p>Share:</p>
+                    <div class="first-screen__icons">
+                        <a class="first-screen__icon" href="">
+                            <picture>
+                                <source srcset="images/facebook-icon--transparent.webp" type="image/webp"><img
+                                    src="images/facebook-icon--transparent.png" alt="">
+                            </picture>
+                        </a>
+                        <a class="first-screen__icon" href="">
+                            <picture>
+                                <source srcset="images/twitter-icon--transparent.webp" type="image/webp"><img
+                                    src="images/twitter-icon--transparent.png" alt="">
+                            </picture>
+                        </a>
+                        <a class="first-screen__icon" href="">
+                            <picture>
+                                <source srcset="images/linkedin-icon--transparent.webp" type="image/webp"><img
+                                    src="images/linkedin-icon--transparent.png" alt="">
+                            </picture>
+                        </a>
+                        <a class="first-screen__icon" href="">
+                            <picture>
+                                <source srcset="images/share-icon--transparent.webp" type="image/webp"><img
+                                    src="images/share-icon--transparent.png" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section">
+                    <div class="section__content">
+                        <h3 class="section__content-title">Donec et ipsum nec quam posuere maximus eu in erat. Duis
+                            laoreet finibus consectetur.</h3>
+                        <p class="section__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                            vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque
+                            ligula ut aliquam. Donec et ipsum nec quam posuere maximus eu in erat. Duis laoreet finibus
+                            consectetur. Nullam pulvinar ex sit amet leo gravida, sed mattis enim vehicula. Duis purus
+                            nisl, consectetur ut est non, placerat eleifend turpis. Duis auctor suscipit arcu. Aenean
+                            leo est, rutrum a eleifend eget, tempor nec urna. Proin finibus lobortis arcu dictum
+                            convallis. Ut fermentum eu magna vel laoreet. In lacus augue, malesuada id elit sit amet,
+                            varius imperdiet ex. Nullam blandit lobortis posuere:</p>
+                        <a class="main__link" href="projects.html">Discover more</a>
+                    </div>
+                </div>
+                <div class="section-images">
+                    <div class="section-images__item section-images__item--long">
+                        <picture>
+                            <source srcset="images/one-news-5.webp" type="image/webp"><img src="images/one-news-5.jpg"
+                                alt="">
+                        </picture>
+                    </div>
+                    <div class="section-images__item">
+                        <picture>
+                            <source srcset="images/one-news-3.webp" type="image/webp"><img src="images/one-news-3.jpg"
+                                alt="">
+                        </picture>
+                    </div>
+                    <div class="section-images__item">
+                        <picture>
+                            <source srcset="images/one-news-4.webp" type="image/webp"><img src="images/one-news-4.jpg"
+                                alt="">
+                        </picture>
+                    </div>
+                    <div class="section-images__item section-images__item--long">
+                        <picture>
+                            <source srcset="images/one-news-2.webp" type="image/webp"><img src="images/one-news-2.jpg"
+                                alt="">
+                        </picture>
+                    </div>
+                </div>
+                <div class="button-wrapper">
+                    <button class="one-project__more">View more photo</button>
+                </div>
+            </div>
+            <div class="one-project__bot">
+                <div class="one-project__bot-wrapper">
+                    <div class="container">
+                        <div class="main__projects-bot">
+                            <h2 class="main__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <div class="main__projects-gallery">
+                                <picture>
+                                    <source srcset="images/gallery-1.webp" type="image/webp"><img class="gallery__img-1"
+                                        src="images/gallery-1.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-2.webp" type="image/webp"><img class="gallery__img-2"
+                                        src="images/gallery-2.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-3.webp" type="image/webp"><img class="gallery__img-3"
+                                        src="images/gallery-3.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-4.webp" type="image/webp"><img class="gallery__img-4"
+                                        src="images/gallery-4.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-5.webp" type="image/webp"><img class="gallery__img-5"
+                                        src="images/gallery-5.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-1.webp" type="image/webp"><img class="gallery__img-6"
+                                        src="images/gallery-1.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-2.webp" type="image/webp"><img class="gallery__img-7"
+                                        src="images/gallery-2.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-3.webp" type="image/webp"><img class="gallery__img-8"
+                                        src="images/gallery-3.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-4.webp" type="image/webp"><img class="gallery__img-9"
+                                        src="images/gallery-4.jpg" alt="">
+                                </picture>
+                                <picture>
+                                    <source srcset="images/gallery-5.webp" type="image/webp"><img
+                                        class="gallery__img-10" src="images/gallery-5.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="main__projects-request">
+                                <p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                    ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam
+                                    eu enim sed, ornare pretium velit.</p>
+                                <button class="button">Make request</button>
+                            </div>
+                        </div>
+                        <div class="one-project__next">
+                            <p class="one-project__next-text">Next project</p>
+                            <h2 class="title">Perfect proportions</h2>
+                            <picture>
+                                <source srcset="images/main-swiper-4.webp" type="image/webp"><img
+                                    src="images/main-swiper-4.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+    </div>
+    <script src="js/app.min.js?_v=20221027005952"></script>
+</body>
+
+</html>
